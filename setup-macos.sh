@@ -16,6 +16,8 @@ echo "Installing formulas..."
 brew install helix
 brew install yazi
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
+brew install jesseduffield/lazygit/lazygit
+brew install zoxide
 
 
 echo "Installing node..."
