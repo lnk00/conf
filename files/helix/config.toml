@@ -1,0 +1,27 @@
+theme = "custom"
+
+[editor]
+line-number = "relative"
+
+[keys.normal]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+
+[keys.normal.g]
+c = ":buffer-close"
+
+[keys.normal."space"]
+q = ":quit"
+w = ":write"
+z = ":reload-all"
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+
+[keys.insert.j]
+k = "normal_mode"
