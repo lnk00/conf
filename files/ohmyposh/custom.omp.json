@@ -39,7 +39,7 @@
           "foreground": "#fcfcfc",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": "{{ .UserName }} \u2301",
+          "template": "{{ .OS }} \u2301",
           "trailing_diamond": "\ue0b4 ",
           "type": "session"
         }
