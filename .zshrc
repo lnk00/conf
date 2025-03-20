@@ -5,5 +5,5 @@ alias ff="yazi ."
 alias cd="z"
 alias gg="lazygit"
 
-eval "$(oh-my-posh init zsh)"
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/custom.omp.json)"
 eval "$(zoxide init zsh)"

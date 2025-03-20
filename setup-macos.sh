@@ -4,7 +4,6 @@ cp .zshrc ~/.zshrc
 
 echo "Installing brew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-source ~/.zshrc
 
 echo "Installing casks..."
 brew install --cask google-chrome
