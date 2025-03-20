@@ -18,6 +18,7 @@ brew install yazi
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 brew install jesseduffield/lazygit/lazygit
 brew install zoxide
+brew install typescript-language-server
 
 
 echo "Installing node..."
