@@ -19,7 +19,9 @@ brew install jandedobbeleer/oh-my-posh/oh-my-posh
 brew install jesseduffield/lazygit/lazygit
 brew install zoxide
 brew install typescript-language-server
-
+brew install vscode-langservers-extracted
+brew install tailwindcss-language-server
+brew install biome
 
 echo "Installing node..."
 curl https://get.volta.sh | bash
