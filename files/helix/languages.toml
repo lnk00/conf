@@ -1,5 +1,6 @@
 [language-server]
 biome = { command = "biome", args = ["lsp-proxy"] }
+emmet-ls = { command = "emmet-ls", args = ["--stdio"] }
 
 [[language]]
 name = "javascript"
@@ -14,12 +15,12 @@ auto-format = true
 [[language]]
 name = "tsx"
 auto-format = true
-language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome", "tailwindcss-ls", "emmet-ls" ]
 
 [[language]]
 name = "jsx"
 auto-format = true
-language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome", "tailwindcss-ls", "emmet-ls" ]
 
 [[language]]
 name = "json"
