@@ -10,6 +10,7 @@ brew install --cask google-chrome
 brew install --cask ghostty
 brew install --cask font-geist
 brew install --cask font-geist-mono-nerd-font
+brew install --cask proton-mail-bridge
 
 echo "Installing formulas..."
 brew install helix
