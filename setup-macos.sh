@@ -23,6 +23,7 @@ brew install vscode-langservers-extracted
 brew install tailwindcss-language-server
 brew install biome
 brew install golang
+brew install gopls
 
 echo "Installing node..."
 curl https://get.volta.sh | bash

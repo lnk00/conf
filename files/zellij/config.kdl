@@ -1,16 +1,16 @@
 themes {
 	custom {
 		bg "#cecece"
-		fg "#202020"
+		fg "#ffffff"
 		red "#dc3e42"
-		green "#2b9a66"
+		green "#0eb39e"
 		blue "#0588f0"
 		yellow "#957468"
 		magenta "#8347b9"
 		orange "#fe640b"
 		cyan "#8347b9"
-		black "#ffffff"
-		white "#202020"
+		black "#1f1f24"
+		white "#ffffff"
 	}
 }
 
