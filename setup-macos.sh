@@ -25,6 +25,7 @@ brew install tailwindcss-language-server
 brew install biome
 brew install golang
 brew install gopls
+brew install oven-sh/bun/bun
 
 echo "Installing node..."
 curl https://get.volta.sh | bash
