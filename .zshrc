@@ -2,6 +2,7 @@ VOLTA_HOME=$HOME/.volta
 SOLANA_HOME=$HOME/.local/share/solana/install/active_release
 AVM_HOME=$HOME/.avm
 PATH=/opt/homebrew/bin:$VOLTA_HOME/bin:$HOME/.cargo/bin:$SOLANA_HOME/bin:$AVM_HOME/bin:$PATH
+EDITOR=hx
 
 alias ff="yazi ."
 alias cd="z"
