@@ -11,6 +11,7 @@ brew install --cask ghostty
 brew install --cask font-geist
 brew install --cask font-geist-mono-nerd-font
 brew install --cask proton-mail-bridge
+brew install --cask zed
 
 echo "Installing formulas..."
 brew install helix
