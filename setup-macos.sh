@@ -12,6 +12,7 @@ brew install --cask font-geist
 brew install --cask font-geist-mono-nerd-font
 brew install --cask proton-mail-bridge
 brew install --cask mouseless@preview
+brew install --cask bruno
 
 echo "Installing formulas..."
 brew install helix
