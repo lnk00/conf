@@ -28,6 +28,7 @@ brew install biome
 brew install golang
 brew install gopls
 brew install oven-sh/bun/bun
+brew install docker
 
 echo "Installing node..."
 curl https://get.volta.sh | bash
