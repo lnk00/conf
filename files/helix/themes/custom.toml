@@ -1,3 +1,6 @@
-inherits = "yo_berry"
+inherits = "iceberg-light"
 "ui.background" = { bg = "transparent" }
 "ui.statusline" = { bg = "transparent" }
+"ui.gutter" = { bg = "transparent" }
+"ui.linenr" = { bg = "transparent" }
+"ui.cursor.primary" = { bg = "#8389a3", fg = "#ffffff" }

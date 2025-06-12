@@ -1,12 +1,16 @@
-theme = xcodedarkhc
+theme = iceberg-light
 macos-titlebar-style = hidden
 font-family = "GeistMono Nerd Font Mono"
 font-size = 15
 font-thicken = false
+window-width = 272
+window-height = 66
 window-padding-x = 12
 window-padding-y = 12
+shell-integration-features = no-cursor
 cursor-style = block
-background = #1D1D1D
+background-opacity = 0.7
+background-blur = true
 
 keybind = super+one=unbind
 keybind = super+two=unbind

@@ -30,6 +30,7 @@ brew install gopls
 brew install oven-sh/bun/bun
 brew install docker
 brew install elixir
+brew install --cask zed
 
 echo "Installing node..."
 curl https://get.volta.sh | bash
