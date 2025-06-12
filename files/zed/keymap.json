@@ -44,12 +44,9 @@
 		}
 	},
 	{
-		"context": "vim_mode == normal",
+		"context": "vim_mode == helix_normal",
 		"bindings": {
 			"space w": "workspace::Save",
-			"g c": "pane::CloseActiveItem",
-			"space k": "editor::Hover",
-			"space f": "file_finder::Toggle",
 			"f f": "workspace::ToggleLeftDock",
 			"space a": "editor::ToggleCodeActions"
 		}
