@@ -6,13 +6,12 @@ echo "Installing brew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 echo "Installing casks..."
-brew install --cask google-chrome
 brew install --cask ghostty
 brew install --cask font-geist
 brew install --cask font-geist-mono-nerd-font
-brew install --cask proton-mail-bridge
 brew install --cask mouseless@preview
 brew install --cask bruno
+brew install --cask zed
 
 echo "Installing formulas..."
 brew install helix
@@ -24,13 +23,11 @@ brew install zoxide
 brew install typescript-language-server
 brew install vscode-langservers-extracted
 brew install tailwindcss-language-server
-brew install biome
 brew install golang
 brew install gopls
 brew install oven-sh/bun/bun
 brew install docker
 brew install elixir
-brew install --cask zed
 
 echo "Installing node..."
 curl https://get.volta.sh | bash
