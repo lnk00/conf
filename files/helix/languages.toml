@@ -1,32 +1,38 @@
 [language-server]
 biome = { command = "biome", args = ["lsp-proxy"] }
 emmet-ls = { command = "emmet-ls", args = ["--stdio"] }
+eslint-ls = {command = "vscode-eslint-language-server", args = ["--stdio"] }
 
 [[language]]
 name = "javascript"
-language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "eslint-ls" ]
+formatter = { command = 'prettier', args = ["--parser", "typescript", "--stdin"] }
 auto-format = true
 
 [[language]]
 name = "typescript"
-language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "eslint-ls" ]
+formatter = { command = 'prettier', args = ["--parser", "typescript", "--stdin"] }
 auto-format = true
 
 [[language]]
 name = "tsx"
-language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome", "tailwindcss-ls", "emmet-ls" ]
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "tailwindcss-ls", "emmet-ls", "eslint-ls" ]
+formatter = { command = 'prettier', args = ["--parser", "typescript", "--plugin", "prettier-plugin-tailwindcss", "--stdin"] }
 auto-format = true
 
 [[language]]
 name = "jsx"
-language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome", "tailwindcss-ls", "emmet-ls" ]
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "tailwindcss-ls", "emmet-ls", "eslint-ls" ]
 auto-format = true
+formatter = { command = 'prettier', args = ["--parser", "typescript", "--plugin", "prettier-plugin-tailwindcss", "--stdin"] }
 
 [[language]]
 name = "json"
-language-servers = [ { name = "vscode-json-language-server", except-features = [ "format" ] }, "biome" ]
+language-servers = [ { name = "vscode-json-language-server", except-features = [ "format" ] } ]
 
 [[language]]
 name = "svelte"
-language-servers = [ { name = "svelteserver", except-features = [ "format" ] }, "biome", "tailwindcss-ls", "emmet-ls" ]
+language-servers = [ { name = "svelteserver", except-features = [ "format" ] }, "tailwindcss-ls", "emmet-ls", "eslint-ls" ]
+formatter = { command = 'prettier', args = ["--parser", "svelte", "--plugin", "prettier-plugin-svelte", "--plugin", "prettier-plugin-tailwindcss", "--stdin"] }
 auto-format = true
