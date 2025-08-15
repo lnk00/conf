@@ -1,27 +1,22 @@
 themes {
 	custom {
-		bg "#cecece"
-		fg "#ffffff"
-		red "#dc3e42"
-		green "#0eb39e"
-		blue "#0588f0"
-		yellow "#957468"
-		magenta "#8347b9"
-		orange "#fe640b"
-		cyan "#8347b9"
-		black "#1f1f24"
-		white "#ffffff"
+		fg "#b8b8b8"
+        bg "#b8b8b8"
+		black "#1a1a1a"
+        red "#dc3545"
+        green "#ffffff"
+        yellow "#e8e8e8"
+        blue "#1a1a1a"
+        magenta "#0d0d0d"
+        cyan "#4a4a4a"
+        white "#b8b8b8"
+        orange "#fd7e14"
 	}
 }
 
 plugins {
 	compact-bar location="zellij:compact-bar"
 }
-
-theme "custom"
-simplified_ui true
-pane_frames false
-default_layout "compact"
 
 keybinds {
 	normal {
@@ -31,3 +26,8 @@ keybinds {
 	  bind "Super 4" { GoToTab 4; SwitchToMode "Normal"; }
 	}
 }
+
+theme "custom"
+simplified_ui true
+pane_frames false
+default_layout "compact"
