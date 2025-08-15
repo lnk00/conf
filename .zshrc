@@ -3,6 +3,10 @@ SOLANA_HOME=$HOME/.local/share/solana/install/active_release
 AVM_HOME=$HOME/.avm
 PATH=/opt/homebrew/bin:$VOLTA_HOME/bin:$HOME/.cargo/bin:$SOLANA_HOME/bin:$AVM_HOME/bin:$PATH
 EDITOR=hx
+SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
 
 alias ff="yazi ."
 alias cd="z"
@@ -13,3 +17,6 @@ alias zl="zellij list-sessions"
 
 eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/custom.omp.json)"
 eval "$(zoxide init zsh)"
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

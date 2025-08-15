@@ -28,6 +28,8 @@ brew install gopls
 brew install oven-sh/bun/bun
 brew install docker
 brew install elixir
+brew install zsh-syntax-highlighting
+brew install zsh-autosuggestions
 
 echo "Installing node..."
 curl https://get.volta.sh | bash
