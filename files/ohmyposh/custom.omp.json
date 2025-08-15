@@ -1,56 +1,61 @@
 {
-	"$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-	"blocks": [
-		{
-			"alignment": "right",
-			"segments": [
-				{
-					"background": "#dcdfe7",
-					"foreground": "#8389a3",
-					"leading_diamond": "\ue0b6",
-					"properties": {
-						"style": "folder"
-					},
-					"style": "diamond",
-					"template": "\ue5ff {{ .Path }}",
-					"trailing_diamond": "\ue0b4",
-					"type": "path"
-				},
-				{
-					"background": "#dcdfe7",
-					"foreground": "#3f84a6",
-					"leading_diamond": " \ue0b6",
-					"properties": {
-						"branch_icon": ""
-					},
-					"style": "diamond",
-					"template": "{{ .HEAD }}",
-					"trailing_diamond": "\ue0b4",
-					"type": "git"
-				}
-			],
-			"type": "rprompt"
-		},
-		{
-			"alignment": "left",
-			"segments": [
-				{
-					"background": "#8389a3",
-					"foreground": "#fcfcfc",
-					"leading_diamond": "\ue0b6",
-					"style": "diamond",
-					"template": "{{ .OS }} \u2301",
-					"trailing_diamond": "\ue0b4 ",
-					"type": "session"
-				}
-			],
-			"type": "prompt"
-		}
-	],
-	"transient_prompt": {
-		"background": "transparent",
-		"foreground": "#8389a3",
-		"template": "\u23fa "
-	},
-	"version": 2
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "transient_prompt": {
+    "template": "\u23fa ",
+    "foreground": "#888888",
+    "background": "transparent"
+  },
+  "blocks": [
+    {
+      "type": "rprompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none",
+            "style": "folder"
+          },
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "template": "\ue5ff {{ .Path }}",
+          "foreground": "#2d2d2d",
+          "background": "#e8e8e8",
+          "type": "path",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "branch_icon": "",
+            "cache_duration": "none"
+          },
+          "leading_diamond": " \ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "template": "{{ .HEAD }}",
+          "foreground": "#1a1a1a",
+          "background": "#e8e8e8",
+          "type": "git",
+          "style": "diamond"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4 ",
+          "template": "{{ .OS }} \u2301",
+          "foreground": "#ffffff",
+          "background": "#888888",
+          "type": "session",
+          "style": "diamond"
+        }
+      ]
+    }
+  ],
+  "version": 3
 }
