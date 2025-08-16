@@ -50,7 +50,7 @@
           "trailing_diamond": "\ue0b4 ",
           "template": "{{ .OS }} \u2301",
           "foreground": "#ffffff",
-          "background": "#888888",
+          "background": "#2d2d2d",
           "type": "session",
           "style": "diamond"
         }
