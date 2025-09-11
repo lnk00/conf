@@ -1,0 +1,144 @@
+# Dream Grey Dark Theme - Dark greyscale theme with boldness
+# A minimalist dark theme using only grey tones and font weights
+# With dark background and colored diagnostics
+
+"attribute" = { fg = "grey-light", modifiers = ["bold"] }
+"keyword" = { fg = "grey-lightest", modifiers = ["bold"] }
+"keyword.control" = { fg = "grey-lightest", modifiers = ["bold"] }
+"keyword.control.import" = { fg = "grey-light", modifiers = ["bold"] }
+"keyword.operator" = { fg = "grey-lighter", modifiers = ["bold"] }
+"keyword.directive" = { fg = "grey-light", modifiers = ["bold"] }
+"keyword.function" = { fg = "grey-lightest", modifiers = ["bold"] }
+
+"type" = { fg = "grey-light", modifiers = ["bold"] }
+"type.builtin" = { fg = "grey-lighter", modifiers = ["bold"] }
+
+"constructor" = { fg = "grey-light" }
+"constant" = { fg = "grey-lighter", modifiers = ["bold"] }
+"constant.builtin" = { fg = "grey-lighter", modifiers = ["bold"] }
+"constant.builtin.boolean" = { fg = "grey-lighter", modifiers = ["bold"] }
+"constant.character" = { fg = "grey-medium" }
+"constant.character.escape" = { fg = "grey-light", modifiers = ["bold"] }
+"constant.numeric" = { fg = "grey-lighter", modifiers = ["bold"] }
+
+"string" = { fg = "grey-medium" }
+"string.regexp" = { fg = "grey-light", modifiers = ["bold"] }
+"string.special" = { fg = "grey-light", modifiers = ["italic"] }
+
+"comment" = { fg = "grey-dark", modifiers = ["italic"] }
+"comment.line" = { fg = "grey-dark", modifiers = ["italic"] }
+"comment.block" = { fg = "grey-dark", modifiers = ["italic"] }
+
+"variable" = { fg = "grey-text" }
+"variable.builtin" = { fg = "grey-light", modifiers = ["bold"] }
+"variable.parameter" = { fg = "grey-text", modifiers = ["italic"] }
+"variable.other.member" = { fg = "grey-text" }
+
+"label" = { fg = "grey-light", modifiers = ["bold"] }
+"punctuation" = { fg = "grey-medium" }
+"punctuation.delimiter" = { fg = "grey-medium" }
+"punctuation.bracket" = { fg = "grey-medium", modifiers = ["bold"] }
+
+"function" = { fg = "grey-lighter", modifiers = ["bold"] }
+"function.method" = { fg = "grey-lighter", modifiers = ["bold"] }
+"function.builtin" = { fg = "grey-lightest", modifiers = ["bold"] }
+"function.macro" = { fg = "grey-light", modifiers = ["bold"] }
+
+"tag" = { fg = "grey-light", modifiers = ["bold"] }
+"namespace" = { fg = "grey-light", modifiers = ["bold"] }
+
+"markup" = { fg = "grey-text" }
+"markup.heading" = { fg = "grey-lightest", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "grey-light", modifiers = ["bold"] }
+"markup.list" = { fg = "grey-light" }
+"markup.list.numbered" = { fg = "grey-light" }
+"markup.list.unnumbered" = { fg = "grey-light" }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "grey-medium", modifiers = ["underlined"] }
+"markup.link.text" = { fg = "grey-light", modifiers = ["bold"] }
+"markup.quote" = { fg = "grey-medium", modifiers = ["italic"] }
+"markup.raw" = { fg = "grey-medium", bg = "grey-bg-code" }
+
+"diff.plus" = { fg = "grey-lightest", bg = "grey-bg-light" }
+"diff.minus" = { fg = "grey-dark", bg = "grey-bg-light" }
+"diff.delta" = { fg = "grey-light", bg = "grey-bg-light" }
+
+"ui.background" = { fg = "grey-text", bg = "grey-bg" }
+"ui.background.separator" = { fg = "grey-border" }
+"ui.cursor" = { fg = "grey-darkest", bg = "grey-cursor" }
+"ui.cursor.normal" = { fg = "grey-darkest", bg = "grey-cursor" }
+"ui.cursor.insert" = { fg = "grey-darkest", bg = "grey-light" }
+"ui.cursor.select" = { fg = "grey-darkest", bg = "grey-lighter" }
+"ui.cursor.match" = { fg = "grey-text", bg = "grey-highlight" }
+"ui.cursor.primary" = { fg = "grey-darkest", bg = "grey-cursor" }
+"ui.cursor.secondary" = { fg = "grey-darkest", bg = "grey-medium" }
+
+"ui.selection" = { bg = "grey-selection-dark" }
+"ui.selection.primary" = { bg = "grey-selection-dark" }
+
+"ui.linenr" = { fg = "grey-dark" }
+"ui.linenr.selected" = { fg = "grey-medium", modifiers = ["bold"] }
+
+"ui.statusline" = { fg = "grey-text", bg = "grey-bg-light" }
+"ui.statusline.inactive" = { fg = "grey-dark", bg = "grey-bg-light" }
+"ui.statusline.normal" = { fg = "grey-lightest", bg = "grey-bg-light", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "grey-lightest", bg = "grey-bg-light", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "grey-darkest", bg = "grey-bg-light", modifiers = ["bold"] }
+
+"ui.popup" = { fg = "grey-text", bg = "grey-bg-medium" }
+"ui.popup.info" = { fg = "grey-text", bg = "grey-bg-medium" }
+"ui.window" = { fg = "grey-border" }
+"ui.help" = { fg = "grey-text", bg = "grey-bg-medium" }
+
+"ui.text" = { fg = "grey-text" }
+"ui.text.focus" = { fg = "grey-lightest", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "grey-dark" }
+"ui.text.info" = { fg = "grey-medium", bg = "grey-bg-medium" }
+
+"ui.virtual" = { fg = "grey-dark" }
+"ui.virtual.ruler" = { bg = "grey-bg-light" }
+"ui.virtual.whitespace" = { fg = "grey-darker" }
+"ui.virtual.indent-guide" = { fg = "grey-darker" }
+"ui.virtual.inlay-hint" = { fg = "grey-dark", modifiers = ["italic"] }
+
+"ui.menu" = { fg = "grey-text", bg = "grey-bg-medium" }
+"ui.menu.selected" = { fg = "grey-lightest", bg = "grey-highlight", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "grey-medium", bg = "grey-bg-light" }
+
+"warning" = { fg = "orange", modifiers = ["bold"] }
+"error" = { fg = "red", modifiers = ["bold"] }
+"info" = { fg = "grey-medium", modifiers = ["bold"] }
+"hint" = { fg = "grey-dark", modifiers = ["bold"] }
+
+"diagnostic" = { modifiers = ["underlined"] }
+"diagnostic.info" = { modifiers = ["underlined"] }
+"diagnostic.hint" = { modifiers = ["underlined"] }
+"diagnostic.warning" = { fg = "orange", modifiers = ["underlined"] }
+"diagnostic.error" = { fg = "red", modifiers = ["underlined"] }
+
+[palette]
+white = "#ffffff"
+grey-lightest = "#e8e8e8"
+grey-lighter = "#d0d0d0"
+grey-light = "#b8b8b8"
+grey-medium = "#888888"
+grey-text = "#c0c0c0"
+grey-dark = "#505050"
+grey-darker = "#383838"
+grey-darkest = "#000000"
+
+grey-bg = "#1a1a1a"
+grey-bg-light = "#2a2a2a"
+grey-bg-medium = "#333333"
+grey-bg-code = "#252525"
+grey-border = "#404040"
+grey-selection = "#404040"
+grey-selection-dark = "#484848"
+grey-highlight = "#383838"
+grey-cursor = "#a0a0a0"
+
+# Color accents for diagnostics
+red = "#dc3545"
+orange = "#fd7e14"
