@@ -1,0 +1,32 @@
+# Dream Grey Dark Theme for Ghostty
+# Minimalist dark greyscale theme matching Helix dark theme aesthetic
+
+# Basic colors
+foreground = c0c0c0
+background = 1a1a1a
+
+# Cursor
+cursor-color = a0a0a0
+cursor-text = 000000
+
+# Selection
+selection-background = 484848
+selection-foreground = c0c0c0
+
+# ANSI Colors (0-15)
+palette = 0=#000000
+palette = 1=#dc3545
+palette = 2=#888888
+palette = 3=#fd7e14
+palette = 4=#b8b8b8
+palette = 5=#d0d0d0
+palette = 6=#a0a0a0
+palette = 7=#c0c0c0
+palette = 8=#505050
+palette = 9=#e74c3c
+palette = 10=#a8a8a8
+palette = 11=#f39c12
+palette = 12=#d0d0d0
+palette = 13=#e8e8e8
+palette = 14=#b8b8b8
+palette = 15=#ffffff
