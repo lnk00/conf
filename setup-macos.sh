@@ -12,6 +12,7 @@ brew install --cask font-geist-mono-nerd-font
 brew install --cask mouseless@preview
 brew install --cask bruno
 brew install --cask zed
+brew install --cask nikitabobko/tap/aerospace
 
 echo "Installing formulas..."
 brew install helix
