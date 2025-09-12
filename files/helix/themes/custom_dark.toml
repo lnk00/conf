@@ -81,11 +81,11 @@
 "ui.linenr" = { fg = "grey-dark" }
 "ui.linenr.selected" = { fg = "grey-medium", modifiers = ["bold"] }
 
-"ui.statusline" = { fg = "grey-text", bg = "grey-bg-light" }
-"ui.statusline.inactive" = { fg = "grey-dark", bg = "grey-bg-light" }
-"ui.statusline.normal" = { fg = "grey-lightest", bg = "grey-bg-light", modifiers = ["bold"] }
-"ui.statusline.insert" = { fg = "grey-lightest", bg = "grey-bg-light", modifiers = ["bold"] }
-"ui.statusline.select" = { fg = "grey-darkest", bg = "grey-bg-light", modifiers = ["bold"] }
+"ui.statusline" = { fg = "grey-text", bg = "transparent" }
+"ui.statusline.inactive" = { fg = "grey-dark", bg = "transparent" }
+"ui.statusline.normal" = { fg = "grey-lightest", bg = "transparent", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "grey-lightest", bg = "transparent", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "grey-darkest", bg = "transparent", modifiers = ["bold"] }
 
 "ui.popup" = { fg = "grey-text", bg = "grey-bg-medium" }
 "ui.popup.info" = { fg = "grey-text", bg = "grey-bg-medium" }
