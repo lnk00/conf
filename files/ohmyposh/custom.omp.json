@@ -18,8 +18,8 @@
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b4",
           "template": "\ue5ff {{ .Path }}",
-          "foreground": "#2d2d2d",
-          "background": "#e8e8e8",
+          "foreground": "#b8b8b8",
+          "background": "#4a4a4a",
           "type": "path",
           "style": "diamond"
         },
@@ -31,8 +31,8 @@
           "leading_diamond": " \ue0b6",
           "trailing_diamond": "\ue0b4",
           "template": "{{ .HEAD }}",
-          "foreground": "#1a1a1a",
-          "background": "#e8e8e8",
+          "foreground": "#b8b8b8",
+          "background": "#4a4a4a",
           "type": "git",
           "style": "diamond"
         }
@@ -49,7 +49,7 @@
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b4 ",
           "template": "{{ .OS }} \u2301",
-          "foreground": "#ffffff",
+          "foreground": "#a8a8a8",
           "background": "#2d2d2d",
           "type": "session",
           "style": "diamond"

@@ -65,7 +65,7 @@
 "diff.minus" = { fg = "grey-dark", bg = "grey-bg-light" }
 "diff.delta" = { fg = "grey-light", bg = "grey-bg-light" }
 
-"ui.background" = { fg = "grey-text", bg = "grey-bg" }
+"ui.background" = { fg = "grey-text", bg = "transparent" }
 "ui.background.separator" = { fg = "grey-border" }
 "ui.cursor" = { fg = "grey-darkest", bg = "grey-cursor" }
 "ui.cursor.normal" = { fg = "grey-darkest", bg = "grey-cursor" }
