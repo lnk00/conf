@@ -1,7 +1,8 @@
 [language-server]
 biome = { command = "biome", args = ["lsp-proxy"] }
 emmet-ls = { command = "emmet-ls", args = ["--stdio"] }
-eslint-ls = {command = "vscode-eslint-language-server", args = ["--stdio"] }
+eslint-ls = {command = "vscode-eslint-language-server", args = ["--stdio"], config = { nodePath = "", quiet = false, rulesCustomizations = [], run = "onType", validate = "on", codeAction = { disableRuleComment = { enable = true, location = "separateLine" }, showDocumentation = { enable = true } }, problems = { shortenToSingleLine = false }, workingDirectory = { mode = "auto" }, experimental = { useFlatConfig = true } } }
+sourcekit-lsp = { command = "sourcekit-lsp" }
 
 [[language]]
 name = "javascript"
@@ -35,4 +36,22 @@ language-servers = [ { name = "vscode-json-language-server", except-features = [
 name = "svelte"
 language-servers = [ { name = "svelteserver", except-features = [ "format" ] }, "tailwindcss-ls", "emmet-ls", "eslint-ls" ]
 formatter = { command = 'prettier', args = ["--parser", "svelte", "--plugin", "prettier-plugin-svelte", "--plugin", "prettier-plugin-tailwindcss", "--stdin"] }
+auto-format = true
+
+[[language]]
+name = "swift"
+auto-format = true
+language-servers = ["sourcekit-lsp"]
+
+[[language]]
+name = "astro"
+language-servers = [ "astro-ls", "tailwindcss-ls" ]
+auto-format = true
+
+[[language]]
+name = "rust"
+formatter = { command = "bash", args = ["-c", "set -o pipefail; maudfmt --stdin . | rustfmt --edition=2024 --emit=stdout"] }
+
+[[language]]
+name = "templ"
 auto-format = true

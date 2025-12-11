@@ -1,4 +1,4 @@
-theme = dream-grey
+theme = dream-grey-dark
 macos-titlebar-style = hidden
 font-family = "GeistMono Nerd Font Mono"
 font-size = 15
@@ -17,3 +17,4 @@ keybind = super+one=unbind
 keybind = super+two=unbind
 keybind = super+three=unbind
 keybind = super+four=unbind
+keybind = shift+enter=text:\n
