@@ -1,0 +1,38 @@
+theme = "e-ink"
+
+[editor]
+line-number = "relative"
+gutters = []
+popup-border = "all"
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.indent-guides]
+render = true
+character = "⸽" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 0
+
+[keys.normal]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+
+[keys.normal.g]
+c = ":buffer-close"
+
+[keys.normal."space"]
+q = ":quit"
+w = ":write"
+z = ":reload-all"
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+
+[keys.insert.j]
+k = "normal_mode"

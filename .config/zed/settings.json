@@ -1,0 +1,118 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "edit_predictions": {
+    "provider": "copilot"
+  },
+  "tab_size": 2,
+  "agent_servers": {
+    "claude": {
+      "default_config_options": {
+        "model": "opus",
+        "mode": "plan",
+      },
+    },
+  },
+  "git": {
+    "blame": {
+      "show_avatar": true,
+    },
+    "inline_blame": {
+      "show_commit_summary": true,
+    },
+  },
+  "bottom_dock_layout": "contained",
+  "window_decorations": "client",
+  "tab_bar": {
+    "show": false,
+  },
+  "title_bar": {
+    "show_user_picture": false,
+    "show_user_menu": false,
+    "show_onboarding_banner": false,
+    "show_project_items": false,
+    "show_sign_in": false,
+    "show_branch_name": true,
+    "show_branch_icon": false,
+  },
+  "search": {
+    "button": true,
+  },
+  "status_bar": {
+    "active_language_button": true,
+  },
+  "project_panel": {
+    "button": true,
+  },
+  "colorize_brackets": false,
+  "middle_click_paste": false,
+  "inlay_hints": {
+    "enabled": false,
+  },
+  "show_whitespaces": "none",
+  "indent_guides": {
+    "background_coloring": "disabled",
+    "coloring": "fixed",
+    "enabled": true,
+  },
+  "toolbar": {
+    "code_actions": false,
+    "selections_menu": true,
+    "quick_actions": false,
+    "breadcrumbs": true,
+  },
+  "minimap": {
+    "show": "never",
+  },
+  "scrollbar": {
+    "axes": {
+      "horizontal": true,
+      "vertical": true,
+    },
+    "show": "never",
+  },
+  "inline_code_actions": true,
+  "relative_line_numbers": "enabled",
+  "gutter": {
+    "min_line_number_digits": 4,
+    "folds": true,
+    "breakpoints": false,
+    "runnables": false,
+    "line_numbers": true,
+  },
+  "scroll_beyond_last_line": "vertical_scroll_margin",
+  "which_key": {
+    "enabled": false,
+  },
+  "show_wrap_guides": false,
+  "rounded_selection": false,
+  "current_line_highlight": "all",
+  "cursor_blink": true,
+  "ui_font_family": "Geist",
+  "buffer_line_height": "standard",
+  "buffer_font_weight": 350.0,
+  "buffer_font_family": "GeistMono Nerd Font Mono",
+  "icon_theme": "Zed (Default)",
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "when_closing_with_no_tabs": "keep_window_open",
+  "helix_mode": true,
+  "vim_mode": false,
+  "ui_font_size": 16.0,
+  "buffer_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "E-Ink",
+    "dark": "Ayu Dark",
+  },
+  "terminal": {
+    "dock": "bottom",
+  },
+}
