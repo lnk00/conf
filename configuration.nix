@@ -157,6 +157,7 @@
       figma-linux
       zed-editor
       obsidian
+      qutebrowser
 
       # Proton suite
       proton-pass
