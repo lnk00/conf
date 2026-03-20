@@ -134,10 +134,20 @@
       lldb
       dioxus-cli
 
+      # BEAM
+      erlang
+      elixir
+      gleam
+      beamPackages.rebar3
+
+      # Zig
+      zig
+
       # Development tools
       gnumake
       postgresql
       gcc
+      buf
 
       # Node
       nodejs
