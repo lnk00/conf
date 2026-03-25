@@ -22,6 +22,7 @@
     nvidia.nvidiaSettings = true;
     nvidia.modesetting.enable = true;
     i2c.enable = true;
+    bluetooth.enable = true;
   };
  
   users.users.lnk0 = {
@@ -36,7 +37,6 @@
   programs = {
     nix-ld.enable = true;
     hyprland.enable = true;
-    waybar.enable = true;
     git.enable = true;
     steam.enable = true;
 
@@ -50,7 +50,7 @@
         mail = "aerc";
         hxconf = "sudo hx /etc/nixos/configuration.nix";
         hxhypr = "hx ~/.config/hypr/hyprland.conf";
-        nixsource = "sudo nixos-rebuild switch";
+        nixsource = "sudo nixos-rebuild switch --flake /etc/nixos#nixos";
         gofullenrich = "cd /home/lnk0/projects/fullEnrich";
         gokbd = "cd /home/lnk0/projects/kbd";
       };
@@ -71,12 +71,26 @@
     font-awesome
   ];
 
+  xdg = {
+    mime = {
+      enable = true;
+      defaultApplications = {
+        "text/html" = "qutebrowser";
+        "x-scheme-handler/http" = "qutebrowser";
+        "x-scheme-handler/https" = "qutebrowser";
+        "x-scheme-handler/about" = "qutebrowser";
+        "x-scheme-handler/ftp" = "qutebrowser";
+      };
+    };
+  };
+
 
   environment = {
     sessionVariables = {
       WLR_NO_HARDWARE_CURSORS = "1";
       NIXOS_OZONE_WL = "1";
       EDITOR = "hx";
+      BROWSER = "qutebrowser";
     };
 
     systemPackages = with pkgs; [
@@ -87,26 +101,31 @@
       ghostty
       unzip
       btop
-      neofetch
+      fastfetch
       gnupg
       pinentry-curses
       vlc
       just
+      curl
 
       # Desktop env
-      hyprpaper
       hyprcursor
       hyprsunset
+      hyprshot
       wl-clipboard
       wf-recorder
       clipse
       playerctl
-      tofi
       grim
       slurp
-      swaynotificationcenter
       pipewire
       wireplumber
+      tesseract
+      imagemagick
+      zbar
+      translate-shell
+      ffmpeg
+      gifski
 
       # TUI programs
       yazi
@@ -115,6 +134,7 @@
       claude-code
       github-copilot-cli
       opencode
+      amp-cli
       glow
       rainfrog
 
@@ -142,6 +162,7 @@
 
       # Zig
       zig
+      zls
 
       # Development tools
       gnumake
@@ -177,6 +198,7 @@
   services = {
     xserver.videoDrivers = ["nvidia"];
     tzupdate.enable = true;
+    upower.enable = true;
   };
 
 

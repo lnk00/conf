@@ -110,7 +110,7 @@
   "theme": {
     "mode": "system",
     "light": "E-Ink",
-    "dark": "Ayu Dark",
+    "dark": "Noctalia Dark",
   },
   "terminal": {
     "dock": "bottom",

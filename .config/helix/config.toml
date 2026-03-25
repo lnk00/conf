@@ -1,4 +1,4 @@
-theme = "e-ink"
+theme = "noc"
 
 [editor]
 line-number = "relative"
