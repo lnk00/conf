@@ -7,6 +7,11 @@ inherits = "noctalia"
 "string.special.symbol" = { fg = "tertiary" }
 "string.special.path" = { fg = "secondary", underline = { color = "secondary", style = "line" } }
 
+"constant.character" = { fg = "tertiary", modifiers = ["bold"] }
+"constant.character.escape" = { fg = "tertiary", modifiers = ["bold"] }
+
+"ui.virtual.jump-label" = { fg = "info", modifiers = ["bold"] }
+
 [palette]
 error = "#ff5555"
 warning = "#ffaa33"
