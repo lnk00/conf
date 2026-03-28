@@ -39,6 +39,7 @@
     hyprland.enable = true;
     git.enable = true;
     steam.enable = true;
+    gpu-screen-recorder.enable = true;
 
     fish = {
       enable = true;
@@ -126,6 +127,8 @@
       translate-shell
       ffmpeg
       gifski
+      gpu-screen-recorder
+      gpu-screen-recorder-gtk
 
       # TUI programs
       yazi
