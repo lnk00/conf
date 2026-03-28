@@ -42,7 +42,7 @@
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
-        "backgroundOpacity": 0.93,
+        "backgroundOpacity": 0.9,
         "barType": "framed",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
@@ -194,6 +194,9 @@
                     "icon": "noctalia",
                     "id": "ControlCenter",
                     "useDistroLogo": false
+                },
+                {
+                    "id": "plugin:color-scheme-creator"
                 }
             ]
         }
@@ -349,7 +352,7 @@
         "clockFormat": "hh\\nmm",
         "clockStyle": "custom",
         "compactLockScreen": false,
-        "dimmerOpacity": 0.25,
+        "dimmerOpacity": 0.1,
         "enableBlurBehind": true,
         "enableLockScreenCountdown": true,
         "enableLockScreenMediaControls": false,
@@ -655,7 +658,7 @@
         "fontDefaultScale": 1,
         "fontFixed": "Geist Mono",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 1,
+        "panelBackgroundOpacity": 0.9,
         "panelsAttachedToBar": true,
         "scrollbarAlwaysVisible": false,
         "settingsPanelMode": "centered",

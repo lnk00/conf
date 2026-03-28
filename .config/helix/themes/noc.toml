@@ -6,3 +6,7 @@ inherits = "noctalia"
 "string.special" = { fg = "tertiary" }
 "string.special.symbol" = { fg = "tertiary" }
 "string.special.path" = { fg = "secondary", underline = { color = "secondary", style = "line" } }
+
+[palette]
+error = "#ff5555"
+warning = "#ffaa33"
