@@ -12,6 +12,12 @@ inherits = "noctalia"
 
 "ui.virtual.jump-label" = { fg = "info", modifiers = ["bold"] }
 
+"ui.statusline" = { fg = "onSurface" }
+"ui.statusline.inactive" = { fg = "onSurface" }
+"ui.statusline.normal" = { fg = "onPrimary", bg = "primary", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "onTertiary", bg = "tertiary", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "onSecondary", bg = "secondary", modifiers = ["bold"] }
+
 [palette]
 error = "#ff5555"
 warning = "#ffaa33"
